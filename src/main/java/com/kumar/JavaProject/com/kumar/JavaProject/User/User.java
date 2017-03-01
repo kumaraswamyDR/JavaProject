@@ -13,12 +13,12 @@ public class User
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    int user_id;
+    private  int user_id;
 
-    String name;
-    String emailId;
-    String gender;
-    String age;
+    private String name;
+    private String emailId;
+    private String gender;
+    private String age;
 
     public int getUserId() {
         return user_id;
